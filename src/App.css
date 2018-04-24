@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.home-container {
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-height: 300px;
+  letter-spacing: 15px;
+  background-size: 60%;
+}
+
+.name-title{
+  width: 98%;
+  margin-top: 3%;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+.my-photo{
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+  align-self: center;
+  background-image: url('./photo/me.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100px;
+}
+
+.name {
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  font-size: 5vw;
+  padding: 20px;
+}
+
+.email {
+  font-size: 19px;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
+.options a {
+  padding-left: 15px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+}
+
+.options a:hover{
+  font-weight: bold;
+}
