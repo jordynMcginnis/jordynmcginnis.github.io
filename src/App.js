@@ -8,12 +8,12 @@ class App extends Component {
           <div className='home-container'>
             <div className='options'>
               <a href='https://github.com/jordynMcginnis' className='hi'>Github</a>
-              <a href='https://github.com/jordynMcginnis/emoji-game' className='hi'> Twitter </a>
-              <a href='https://www.linkedin.com/in/jordyn-mcginnis-51a729150/' className='hi'> Linked In</a>
+              <a href='https://github.com/jordynMcginnis/emoji-game' className='hi'>Twitter</a>
+              <a href='https://www.linkedin.com/in/jordyn-mcginnis-51a729150/' className='hi'>LinkedIn</a>
             </div>
             <div className='name-title'>
-              <div className='name' > JORDYN MCGINNIS</div>
-              <div className='email'> jordynbmcginnis@gmail.com</div>
+              <div className='name' >JORDYN MCGINNIS</div>
+              <div className='email'>jordynbmcginnis@gmail.com</div>
             </div>
             <div className='my-photo'>
             </div>
