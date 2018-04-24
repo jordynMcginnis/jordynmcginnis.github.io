@@ -1,2 +1,0 @@
-webpackJsonp([0xdd083a4740fa],{358:function(o,n){o.exports={data:{site:{siteMetadata:{title:"Jordyn McGinnis",author:"Jordyn McGinnis"}},markdownRemark:{id:"/Users/jordynmcginnis/Code/jordynmcginnis.com/src/pages/blog/coming-soon/index.md absPath of file >>> MarkdownRemark",html:"<h3>Blog coming soon</h3>",frontmatter:{title:"Coming Soon",date:"November 01, 2017"}}},pathContext:{path:"/coming-soon/"}}}});
-//# sourceMappingURL=path---coming-soon-165b9008d41efd6f74ab.js.map
