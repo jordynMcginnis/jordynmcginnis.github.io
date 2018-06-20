@@ -6,17 +6,28 @@ class App extends Component {
     return (
       <div className="App">
           <div className='home-container'>
-            <div className='options'>
-              <a href='https://github.com/jordynMcginnis' className='hi'>Github</a>
-              <a href='https://github.com/jordynMcginnis/emoji-game' className='hi'>Twitter</a>
-              <a href='https://www.linkedin.com/in/jordyn-mcginnis-51a729150/' className='hi'>LinkedIn</a>
+
+            <div className='skills'>
+            <div className='travel-border'>
+
             </div>
-            <div className='name-title'>
-              <div className='name' >JORDYN MCGINNIS</div>
-              <div className='email'>jordynbmcginnis@gmail.com</div>
             </div>
             <div className='my-photo'>
             </div>
+            <div className= 'links'>
+            </div>
+            <div className='work'>
+            <h3> TYLERMCGINNIS.COM </h3>
+            <h6>  2017 - Current </h6>
+          </div>
+          </div>
+          <div className='relocate'>
+          </div>
+
+          <div className='ns'>
+            JORDYN MCGINNIS
+          </div>
+          <div className='bottom'>
           </div>
 
       </div>
@@ -25,3 +36,7 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+
