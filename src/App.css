@@ -1,264 +1,66 @@
 .App {
-
-
+  text-align: center;
 }
 
 .home-container {
-  /*padding: 10px 50px;*/
+  padding: 10px 50px;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: space-between;
-
+  margin: 0 auto;
   min-height: 300px;
-  max-height: 200vh;
-
-  z-index: -1;
-/*  background-size: 60%;
-*/
+  letter-spacing: 15px;
+  background-size: 60%;
 }
 
-.my-projects {
-  height: 100vh;
-  width: 100vw;
-  background-color: #c5edf9;
-  z-index: 0;
-  display: flex;
-}
-
-.my-projects h1 {
-  color: #1b77cc;
-  text-shadow: 4px 4px yellow;
-  font-size: 5em;
-}
-
-.carosel {
-  width: 50vw;
-}
-.my-photo{
-  position: fixed;
-  height: 40vh;
-  width: 100vw;
+.name-title{
+  width: 98%;
+  margin-top: 3%;
+  text-align: center;
   align-self: center;
-  background-image: url('./photo/ladies4.jpg');
+  margin-bottom: 30px;
+}
+
+.my-photo{
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+  align-self: center;
+  background-image: url('./photo/me.jpg');
   background-size: cover;
-  background-position: center right;
-  background-repeat: no-repeat;
-  z-index: 0;
+  background-position: center;
+  border-radius: 100px;
 }
 
-.skills{
-  margin-top: 2vh;
-  position: fixed;
-  z-index: -1;
+.name {
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
+  font-size: 5vw;
+  padding: 20px;
+}
+
+.email {
+  font-size: 19px;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+}
+
+.options {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-
-  background-color: #ef00a6;
-  height: 90vh;
-  width: 100vw;
-  background-image: url('./photo/fun.png');
-  background-size: contain;
-  background-position: center;
-
+  justify-content: flex-start;
+  margin-top: 10px;
+  padding-top: 20px;
+  font-weight: 300;
 }
 
-
-.travel-border{
-  margin-top: 8vh;
-  position: fixed;
-  z-index: -1;
-  background-color: #fbfefc;
-  height: 20vh;
-  width: 100vw;
-
-  background-size: contain;
-  background-position: center;
-  background-color: white;
+.options a {
+  padding-left: 15px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
 }
 
-.links {
-  height: 80vh;
-  width: 100vw;
-  overflow: hidden;
-  background-image: url('./photo/selfie4.png');
-  background-color: white;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  z-index: 1;
-
-}
-
-.uni{
-    background-color: white;
-    background-image: url('./photo/uni.gif');
-    height: 15vh;
-    width: 100vw;
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: pink;
-    display: flex;
-    justify-content: center;
-    background-position: center;
-}
-.github{
-
-  height: 30vh;
-  width: 30vh;
-  margin-top: 14vh;
-  margin-left: 25vw;
-}
-
-.github:hover {
-  background-image: url('./photo/sparkle.gif');
-  background-size: contain;
-}
-.twitter{
-  height: 30vh;
-  width: 30vh;
-  margin-top: -25vh;
-  margin-left: 15vw;
-}
-
-.twitter:hover {
-  background-image: url('./photo/sparkle.gif');
-  background-size: contain;
-}
-
-.linkedin{
-  height: 30vh;
-  width: 30vh;
-  margin-top: -6vh;
-  margin-left: 60vw;
-}
-
-.linkedin:hover {
-  background-image: url('./photo/sparkle.gif');
-  background-size: contain;
-}
-
-.relocate {
-  height: 50vh;
-  width: 100vw;
-  overflow: hidden;
-  background-image: url('./photo/location1.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #ffeaf4;
-  background-position: center;
-  z-index: -5;
-}
-.github-stalker{
-   height: 50vh;
-  width: 100vw;
-  overflow: hidden;
-  background-image: url('./photo/stalker11.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: white;
-  background-position: center;
-  z-index: -5;
-}
-.github-battle {
-  height: 50vh;
-  width: 100vw;
-  overflow: hidden;
-  background-image: url('./photo/nij.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #6484a9;
-  background-position: center;
-  z-index: -5;
-}
-.connect-four {
-  height: 50vh;
-  width: 100vw;
-  overflow: hidden;
-  background-image: url('./photo/c.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: white;
-  background-position: center;
-  z-index: -5;
-}
-.sea-bnb {
-   height: 50vh;
-  width: 100vw;
-  overflow: hidden;
-  background-image: url('./photo/sea.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: #4990E2;
-  background-position: center;
-  z-index: -5;
-}
-.work {
-  margin-top: 7vh;
-  height: 30vh;
-  width: 100vw;
-  color: white;
-  background-color:#c5edf9;
-  font-size: 2vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  z-index: 50;
-  flex-wrap: wrap;
-}
-
-.work ul li {
-  list-style: none;
-  font-size: 100vh;
-}
-
-.projects {
-  margin-top: 7vh;
-  height: 30vh;
-  width: 100vw;
-  color: white;
-  background-color:#cfd8dc;
-  font-size: 3vw;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  z-index: 50;
-  flex-wrap: wrap;
-}
-
-.
-
-.project1 {
-  z-index: 1;
-  height: 50vh;
-  width: 100vw;
-  margin-top: 10vh;
-  background-color: #ffb8ea;
-  display: flex;
-  justify-content: space-between;
-}
-
-.project2 {
-  height: 50vh;
-  width: 100vw;
-  background-color: #ffb8ea;
-}
-
-.ns {
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 6vw;
-  letter-spacing: 1vw;
-  height: 40vh;
-  width: 100vw;
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 20;
-}
-.bottom {
-  height: 15vh;
-  width: 100vw;
+.options a:hover{
+  font-weight: bold;
 }
