@@ -13,9 +13,9 @@ class App extends Component {
             </div>
             <div className='name-title'>
               <div className='name'>JORDYN MCGINNIS</div>
+              <div className='my-photo'></div>
               <div className='email'>jordynbmcginnis@gmail.com</div>
             </div>
-            <div className='my-photo'></div>
           </div>
       </div>
     );
