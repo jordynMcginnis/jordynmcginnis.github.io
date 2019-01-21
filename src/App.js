@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithubSquare, FaTwitterSquare, FaLinkedin } from 'react-icons/fa';
 
 class App extends Component {
   render() {
@@ -12,9 +12,9 @@ class App extends Component {
               <div className='my-photo'></div>
               <div className='email'>jordynbmcginnis@gmail.com</div>
               <div className='options'>
-                <a href='https://github.com/jordynMcginnis'>Github</a>
-                <a href='https:twitter.com/jordynbmcginnis'>Twitter</a>
-                <a href='https://www.linkedin.com/in/jordyn-mcginnis-51a729150/'>LinkedIn</a>
+                <a href='https://github.com/jordynMcginnis'><FaGithubSquare/></a>
+                <a href='https:twitter.com/jordynbmcginnis'><FaTwitterSquare/></a>
+                <a href='https://www.linkedin.com/in/jordyn-mcginnis-51a729150/'><FaLinkedin/></a>
               </div>
             </div>
           </div>

@@ -49,19 +49,18 @@
 .options {
   display: flex;
   justify-content: center;
-  margin-top: 10px;
   padding-top: 20px;
   font-weight: 300;
 }
 
 .options a {
-  padding-left: 15px;
-  font-size: 20px;
+  padding: 15px;
+  font-size: 35px;
   letter-spacing: 1px;
   text-decoration: none;
   color: black;
 }
 
 .options a:hover{
-  font-weight: bold;
+  color: red;
 }
