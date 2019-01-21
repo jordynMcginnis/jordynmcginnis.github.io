@@ -11,6 +11,7 @@ class App extends Component {
               <div className='name'>JORDYN MCGINNIS</div>
               <div className='my-photo'></div>
               <div className='email'>jordynbmcginnis@gmail.com</div>
+              <div className='number'>435-703-0178</div>
               <div className='options'>
                 <a href='https://github.com/jordynMcginnis'><FaGithubSquare/></a>
                 <a href='https:twitter.com/jordynbmcginnis'><FaTwitterSquare/></a>

@@ -46,15 +46,20 @@
   letter-spacing: 0.5px;
 }
 
+.number {
+  font-size: 19px;
+  margin-top: 20px;
+  letter-spacing: 0.5px;
+}
+
 .options {
   display: flex;
   justify-content: center;
-  padding-top: 20px;
-  font-weight: 300;
+  padding-top: 10px;
 }
 
 .options a {
-  padding: 15px;
+  padding: 5px;
   font-size: 35px;
   letter-spacing: 1px;
   text-decoration: none;
