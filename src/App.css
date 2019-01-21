@@ -19,18 +19,17 @@
   margin-top: 3%;
   text-align: center;
   align-self: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .my-photo{
-  margin-top: 30px;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   align-self: center;
   background-image: url('./photo/me.jpg');
   background-size: cover;
   background-position: center;
-  border-radius: 100px;
+  border-radius: 150px;
   margin: 0 auto;
 }
 
@@ -38,11 +37,12 @@
   text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
   font-size: 5vw;
   padding: 20px;
+  margin-bottom: 10vh;
 }
 
 .email {
   font-size: 19px;
-  margin-top: 20px;
+  margin-top: 10vh;
   letter-spacing: 0.5px;
 }
 
@@ -63,4 +63,29 @@
 
 .options a:hover{
   color: red;
+}
+@media only screen and (min-width: 1800px) {
+  .name {
+    font-size: 90px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .home-container {
+    display: flex;
+    align-items: center;
+  }
+}
+@media only screen and (width: 320px) {
+  .home-container {
+    display: flex;
+    align-items: center;
+  }
+  .my-photo {
+    margin: 0;
+  }
+  .name-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
